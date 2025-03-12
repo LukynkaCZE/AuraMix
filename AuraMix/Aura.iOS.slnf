@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "Aura.sln",
+    "projects": [
+      "Aura.Game\\Aura.Game.csproj",
+      "Aura.Resources\\Aura.Resources.csproj",
+      "Aura.iOS\\Aura.iOS.csproj"
+    ]
+  }
+}

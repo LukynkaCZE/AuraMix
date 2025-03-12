@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup Label="Project">
+        <TargetFramework>net8.0</TargetFramework>
+        <OutputType>WinExe</OutputType>
+        <AssemblyName>Aura</AssemblyName>
+        <ApplicationIcon>game.ico</ApplicationIcon>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <Version>0.0.0</Version>
+        <FileVersion>0.0.0</FileVersion>
+        <LangVersion>latestmajor</LangVersion>
+        <RootNamespace>Aura.Desktop</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup Label="Project References">
+        <ProjectReference Include="..\AuraMix.Game\AuraMix.Game.csproj" />
+    </ItemGroup>
+    <ItemGroup Label="Resources">
+        <EmbeddedResource Include="game.ico"/>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="ppy.osu.Framework" Version="2025.311.0" />
+    </ItemGroup>
+</Project>

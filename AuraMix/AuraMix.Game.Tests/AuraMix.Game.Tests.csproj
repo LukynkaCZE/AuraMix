@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup Label="Project">
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateProgramFile>false</GenerateProgramFile>
+        <LangVersion>12</LangVersion>
+        <RootNamespace>Aura.Game.Tests</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup Label="Project References">
+        <ProjectReference Include="..\AuraMix.Game\AuraMix.Game.csproj" />
+    </ItemGroup>
+    <ItemGroup Label="Package References">
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0"/>
+        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0"/>
+        <PackageReference Include="ppy.osu.Framework" Version="2025.311.0" />
+    </ItemGroup>
+</Project>
